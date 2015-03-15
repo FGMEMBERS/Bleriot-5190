@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+************************************************************************
+Bleriot 5190 Santos Dumont
+November 2011 BARANGER Emmanuel
+************************************************************************
+-->
+
+<PropertyList include="5190-base.xml">
+
+  <sim>
+
+    <description>Bleriot 5190 Santos Dumont (YASim)</description>
+    <flight-model>yasim</flight-model>
+    <aero>5190-yasim</aero>
+
+    <type type="string">seaplane</type>
+
+  </sim>
+    
+</PropertyList>

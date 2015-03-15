@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <PropertyList include="5190-jsbsim-cnf.xml"> -->
+<PropertyList include="5190-yasim-cnf.xml">
+
+  <sim>
+
+    <description>Bleriot 5191 Santos Dumont (YASim)</description>
+    <author>BARANGER Emmanuel</author>
+
+    <rating>
+     <FDM type="int">     0 </FDM>
+     <systems type="int"> 0 </systems>
+     <cockpit type="int"> 0 </cockpit>
+     <model type="int">   2 </model>
+    </rating>
+
+  </sim>
+
+</PropertyList>
+
