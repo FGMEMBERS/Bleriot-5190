@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>panel.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>panel</object-name>
+
+    <!-- Objets transparents -->
+  </animation>
+
+  <!-- AIRSPEED -->
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Interior/Panel/Instruments/AirSpeed/airspeed.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.412 </y-m>
+      <z-m>  0.065 </z-m>
+    </offsets>
+  </model>
+
+  <!-- ATTITUDE -->
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Interior/Panel/Instruments/attitude/attitude.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.317 </y-m>
+      <z-m>  0.065 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- ALTITUDE -->
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Interior/Panel/Instruments/Altimeter/altimeter.xml</path>
+    <offsets>
+      <x-m> -0.001 </x-m>
+      <y-m> -0.220 </y-m>
+      <z-m>  0.065 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- TURN -->
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Interior/Panel/Instruments/turn/turn.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.412 </y-m>
+      <z-m> -0.028 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- VSI -->
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
+    <offsets>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.220 </y-m>
+      <z-m> -0.028 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- Engines -->
+  
+  <!-- FFLOW -->
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Interior/Panel/Instruments/engines/fflow/fflow0.xml</path>
+    <offsets>
+      <x-m> 0.00 </x-m>
+      <y-m> 0.19 </y-m>
+      <z-m> 0.08 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Interior/Panel/Instruments/engines/fflow/fflow1.xml</path>
+    <offsets>
+      <x-m> 0.00 </x-m>
+      <y-m> 0.26 </y-m>
+      <z-m> 0.08 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Interior/Panel/Instruments/engines/fflow/fflow2.xml</path>
+    <offsets>
+      <x-m> 0.00 </x-m>
+      <y-m> 0.33 </y-m>
+      <z-m> 0.08 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Interior/Panel/Instruments/engines/fflow/fflow3.xml</path>
+    <offsets>
+      <x-m> 0.00 </x-m>
+      <y-m> 0.40 </y-m>
+      <z-m> 0.08 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- RPM -->
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Interior/Panel/Instruments/engines/rpm/rpm0-1.xml</path>
+    <offsets>
+      <x-m> 0.00 </x-m>
+      <y-m> 0.19 </y-m>
+      <z-m> 0.01 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Interior/Panel/Instruments/engines/rpm/rpm2-3.xml</path>
+    <offsets>
+      <x-m> 0.00 </x-m>
+      <y-m> 0.26 </y-m>
+      <z-m> 0.01 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- OIL -->
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Interior/Panel/Instruments/engines/oil/oilp0.xml</path>
+    <offsets>
+      <x-m>  0.00 </x-m>
+      <y-m>  0.19 </y-m>
+      <z-m> -0.06 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Interior/Panel/Instruments/engines/oil/oilp1.xml</path>
+    <offsets>
+      <x-m>  0.00 </x-m>
+      <y-m>  0.26 </y-m>
+      <z-m> -0.06 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Interior/Panel/Instruments/engines/oil/oilp2.xml</path>
+    <offsets>
+      <x-m>  0.00 </x-m>
+      <y-m>  0.33 </y-m>
+      <z-m> -0.06 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Interior/Panel/Instruments/engines/oil/oilp3.xml</path>
+    <offsets>
+      <x-m>  0.00 </x-m>
+      <y-m>  0.40 </y-m>
+      <z-m> -0.06 </z-m>
+    </offsets>
+  </model>
+  
+</PropertyList>

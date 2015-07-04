@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 
 <PropertyList>
 
@@ -13,9 +13,9 @@
       var float_0 = self.getNode("sim/multiplay/generic/float[0]", 1);
       var float_1 = self.getNode("sim/multiplay/generic/float[1]", 1);
       
-      var crew_door = self.getNode("instrumentation/doors/crew/position-norm", 1);
-      var passenger_door = self.getNode("instrumentation/doors/passenger/position-norm", 1);
-    
+      var crew_door = self.getNode("sim/model/door-positions/crew/position-norm", 1);
+      var passenger_door = self.getNode("sim/model/door-positions/passenger/position-norm", 1);
+      
       crew_door.alias(float_0);
       passenger_door.alias(float_1);
     </load>
@@ -101,35 +101,11 @@
     <property-base>sim/model/livery</property-base>
     <texture-prop>texture</texture-prop>
     <texture>texture.png</texture>
-<!--
-    <diffuse>
-      <red-prop>diffuse/red</red-prop>
-      <green-prop>diffuse/green</green-prop>
-      <blue-prop>diffuse/blue</blue-prop>
-    </diffuse>
-
-    <ambient>
-      <red-prop>ambient/red</red-prop>
-      <green-prop>ambient/green</green-prop>
-      <blue-prop>ambient/blue</blue-prop>
-    </ambient>
--->
     <specular>
       <red-prop>specular/red</red-prop>
       <green-prop>specular/green</green-prop>
       <blue-prop>specular/blue</blue-prop>
     </specular>
-
-    <emission>
-      <red-prop>emission/red</red-prop>
-      <green-prop>emission/green</green-prop>
-      <blue-prop>emission/blue</blue-prop>
-    </emission>
-<!--
-    <shininess>
-      <shininess-prop>shininess</shininess-prop>
-    </shininess>
--->
   </animation>
 
   <effect>
@@ -154,15 +130,15 @@
     <object-name>axes</object-name>
   </effect>
 
-  <animation>
-    <type>shader</type>
-    <shader>chrome</shader>
-    <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
+  <!-- working for Rembrandt -->
+  <effect>
+    <inherits-from>Aircraft/Bleriot-5190/Models/Effects/Glass/glass</inherits-from>
     <object-name>vitres</object-name>
-  </animation>
-
-  <animation>
-    <type>noshadow</type>
+  </effect>
+  
+  <effect>
+    <inherits-from>Effects/model-transparent</inherits-from>
+    <object-name>vitres</object-name>
     <object-name>propdiscG</object-name>
     <object-name>propblurG</object-name>
     <object-name>propdiscCA</object-name>
@@ -171,11 +147,10 @@
     <object-name>propblurCB</object-name>
     <object-name>propdiscD</object-name>
     <object-name>propblurD</object-name>
-  </animation>
-
+  </effect>
+  
   <!-- Une ombre pour OSG -->
   <model>
-    <name>shadowOSG</name>
     <path>Aircraft/Bleriot-5190/Models/shadow.xml</path>
     <offsets>
       <x-m>  0.000 </x-m>
@@ -189,6 +164,11 @@
     <path>Aircraft/Bleriot-5190/Models/Interior/interior.xml</path>
   </model>
 
+  <!-- Cranking effects -->
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Effects/cranking/all-crankings.xml</path>
+  </model>
+  
   <!-- Trainée Centrale -->
   <model>
     <path>Aircraft/Bleriot-5190/Models/Effects/wake/wake.xml</path>
@@ -196,9 +176,7 @@
       <x-m>  4.354 </x-m>
       <y-m>  0.000 </y-m>
       <z-m> -2.924 </z-m>
-      <roll-deg>    0 </roll-deg>
       <pitch-deg> -45 </pitch-deg>
-      <heading-deg> 0 </heading-deg>
     </offsets>
   </model> 
 
@@ -209,9 +187,7 @@
       <x-m> -1.721 </x-m>
       <y-m> -6.795 </y-m>
       <z-m> -2.708 </z-m>
-      <roll-deg>    0 </roll-deg>
       <pitch-deg> -45 </pitch-deg>
-      <heading-deg> 0 </heading-deg>
     </offsets>
   </model> 
 
@@ -222,9 +198,7 @@
       <x-m> -1.721 </x-m>
       <y-m>  6.795 </y-m>
       <z-m> -2.708 </z-m>
-      <roll-deg>    0 </roll-deg>
       <pitch-deg> -45 </pitch-deg>
-      <heading-deg> 0 </heading-deg>
     </offsets>
   </model> 
 
@@ -281,6 +255,12 @@
     <type>spin</type>
     <object-name>HeliceGauche</object-name>
     <property>engines/engine[0]/rpm</property>
+    <condition>
+      <greater-than>
+        <property>engines/engine[0]/rpm</property>
+        <value> 5 </value>
+      </greater-than>
+    </condition>
     <factor> 1 </factor>
     <center>
       <x-m> -6.771 </x-m>
@@ -346,6 +326,12 @@
     <type>spin</type>
     <object-name>HeliceCentraleAvant</object-name>
     <property>engines/engine[1]/rpm</property>
+    <condition>
+      <greater-than>
+        <property>engines/engine[1]/rpm</property>
+        <value> 5 </value>
+      </greater-than>
+    </condition>
     <factor> 1 </factor>
     <center>
       <x-m> -6.771 </x-m>
@@ -411,6 +397,12 @@
     <type>spin</type>
     <object-name>HeliceCentraleArriere</object-name>
     <property>engines/engine[2]/rpm</property>
+    <condition>
+      <greater-than>
+        <property>engines/engine[2]/rpm</property>
+        <value> 5 </value>
+      </greater-than>
+    </condition>
     <factor> 1 </factor>
     <center>
       <x-m> 1.189 </x-m>
@@ -476,6 +468,12 @@
     <type>spin</type>
     <object-name>HeliceDroite</object-name>
     <property>engines/engine[3]/rpm</property>
+    <condition>
+      <greater-than>
+        <property>engines/engine[3]/rpm</property>
+        <value> 5 </value>
+      </greater-than>
+    </condition>
     <factor> 1 </factor>
     <center>
       <x-m> -6.771 </x-m>
@@ -621,4 +619,3 @@
   </animation>
 
 </PropertyList>
-

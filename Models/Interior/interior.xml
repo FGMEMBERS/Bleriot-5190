@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 
 <PropertyList>
 
@@ -13,18 +13,12 @@
     <object-name>intvitres</object-name>
   </animation>
 
-  <animation>
-    <type>noshadow</type>
+  <!-- working for Rembrandt -->
+  <effect>
+    <inherits-from>Aircraft/Bleriot-5190/Models/Effects/Glass/glass</inherits-from>
     <object-name>intvitres</object-name>
-  </animation>
-
-  <animation>
-    <type>shader</type>
-    <shader>chrome</shader>
-    <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
-    <object-name>intvitres</object-name>
-  </animation>
-
+  </effect>
+  
   <!-- Pilote -->
   <model>
     <path>Aircraft/Bleriot-5190/Models/Pilot/pilot.xml</path>
@@ -35,15 +29,14 @@
     </offsets>
   </model>
 
-  <!-- Planche de bord
+  <!-- Planche de bord -->
   <model>
-    <path>Aircraft/Bombardier-415/Models/Interior/Panel/panel.xml</path>
+    <path>Aircraft/Bleriot-5190/Models/Interior/Panel/panel.xml</path>
     <offsets>
-      <x-m> -8.210 </x-m>
+      <x-m> -5.955 </x-m>
       <y-m>  0.000 </y-m>
-      <z-m> -1.534 </z-m>
+      <z-m>  0.311 </z-m>
     </offsets>
-  </model> -->
+  </model>
 
 </PropertyList>
-

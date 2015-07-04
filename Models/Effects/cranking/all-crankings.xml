@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <!-- Moteur avant gauche -->
+  <!-- gauche -->
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Effects/cranking/cranking0.xml</path>
+    <offsets>
+      <x-m> -6.05626 </x-m>
+      <y-m> -0.67046 </y-m>
+      <z-m>  2.20236 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Effects/cranking/cranking0.xml</path>
+    <offsets>
+      <x-m> -5.77181 </x-m>
+      <y-m> -0.69104 </y-m>
+      <z-m>  2.20236 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Effects/cranking/cranking0.xml</path>
+    <offsets>
+      <x-m> -5.47869 </x-m>
+      <y-m> -0.69400 </y-m>
+      <z-m>  2.20236 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Effects/cranking/cranking0.xml</path>
+    <offsets>
+      <x-m> -5.22577 </x-m>
+      <y-m> -0.69471 </y-m>
+      <z-m>  2.20236 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- droite -->
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Effects/cranking/cranking0.xml</path>
+    <offsets>
+      <x-m> -6.05626 </x-m>
+      <y-m>  0.67046 </y-m>
+      <z-m>  2.20236 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Effects/cranking/cranking0.xml</path>
+    <offsets>
+      <x-m> -5.77181 </x-m>
+      <y-m>  0.69104 </y-m>
+      <z-m>  2.20236 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Effects/cranking/cranking0.xml</path>
+    <offsets>
+      <x-m> -5.47869 </x-m>
+      <y-m>  0.69400 </y-m>
+      <z-m>  2.20236 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Effects/cranking/cranking0.xml</path>
+    <offsets>
+      <x-m> -5.22577 </x-m>
+      <y-m>  0.69471 </y-m>
+      <z-m>  2.20236 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- Moteur avant central -->
+  <!-- Gauche -->
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Effects/cranking/cranking1.xml</path>
+    <offsets>
+      <x-m> -0.28020 </x-m>
+      <y-m> -0.68673 </y-m>
+      <z-m>  1.81381 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Effects/cranking/cranking1.xml</path>
+    <offsets>
+      <x-m>  0.01564 </x-m>
+      <y-m> -0.67849 </y-m>
+      <z-m>  1.81381 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Effects/cranking/cranking1.xml</path>
+    <offsets>
+      <x-m>  0.30722 </x-m>
+      <y-m> -0.66358 </y-m>
+      <z-m>  1.81381 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Effects/cranking/cranking1.xml</path>
+    <offsets>
+      <x-m>  0.56167 </x-m>
+      <y-m> -0.63945 </y-m>
+      <z-m>  1.81381 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- Droite -->
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Effects/cranking/cranking1.xml</path>
+    <offsets>
+      <x-m> -0.28020 </x-m>
+      <y-m>  0.68673 </y-m>
+      <z-m>  1.81381 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Effects/cranking/cranking1.xml</path>
+    <offsets>
+      <x-m> 0.01564 </x-m>
+      <y-m> 0.67849 </y-m>
+      <z-m> 1.81381 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Effects/cranking/cranking1.xml</path>
+    <offsets>
+      <x-m> 0.30722 </x-m>
+      <y-m> 0.66358 </y-m>
+      <z-m> 1.81381 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Effects/cranking/cranking1.xml</path>
+    <offsets>
+      <x-m> 0.56167 </x-m>
+      <y-m> 0.63945 </y-m>
+      <z-m> 1.81381 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- Moteur arrière central -->
+  <!-- Gauche -->
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Effects/cranking/cranking2.xml</path>
+    <offsets>
+      <x-m> -6.15694 </x-m>
+      <y-m> -4.97317 </y-m>
+      <z-m>  1.97905 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Effects/cranking/cranking2.xml</path>
+    <offsets>
+      <x-m> -5.87248 </x-m>
+      <y-m> -4.96557 </y-m>
+      <z-m>  1.97905 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Effects/cranking/cranking2.xml</path>
+    <offsets>
+      <x-m> -5.57937 </x-m>
+      <y-m> -4.94848 </y-m>
+      <z-m>  1.97905 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Effects/cranking/cranking2.xml</path>
+    <offsets>
+      <x-m> -5.32645 </x-m>
+      <y-m> -4.93073 </y-m>
+      <z-m>  1.97905 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- Droite -->
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Effects/cranking/cranking2.xml</path>
+    <offsets>
+      <x-m> -6.15694 </x-m>
+      <y-m> -3.82683 </y-m>
+      <z-m>  1.97905 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Effects/cranking/cranking2.xml</path>
+    <offsets>
+      <x-m> -5.87248 </x-m>
+      <y-m> -3.83443 </y-m>
+      <z-m>  1.97905 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Effects/cranking/cranking2.xml</path>
+    <offsets>
+      <x-m> -5.57937 </x-m>
+      <y-m> -3.85152 </y-m>
+      <z-m>  1.97905 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Effects/cranking/cranking2.xml</path>
+    <offsets>
+      <x-m> -5.32645 </x-m>
+      <y-m> -3.86927 </y-m>
+      <z-m>  1.97905 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- Moteur avant droit -->
+  <!-- Gauche -->
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Effects/cranking/cranking3.xml</path>
+    <offsets>
+      <x-m> -6.15694 </x-m>
+      <y-m>  3.82683 </y-m>
+      <z-m>  1.97905 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Effects/cranking/cranking3.xml</path>
+    <offsets>
+      <x-m> -5.87248 </x-m>
+      <y-m>  3.83443 </y-m>
+      <z-m>  1.97905 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Effects/cranking/cranking3.xml</path>
+    <offsets>
+      <x-m> -5.57937 </x-m>
+      <y-m>  3.85152 </y-m>
+      <z-m>  1.97905 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Effects/cranking/cranking3.xml</path>
+    <offsets>
+      <x-m> -5.32645 </x-m>
+      <y-m>  3.86927 </y-m>
+      <z-m>  1.97905 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- Droite -->
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Effects/cranking/cranking3.xml</path>
+    <offsets>
+      <x-m> -6.15694 </x-m>
+      <y-m>  4.97317 </y-m>
+      <z-m>  1.97905 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Effects/cranking/cranking3.xml</path>
+    <offsets>
+      <x-m> -5.87248 </x-m>
+      <y-m>  4.96557 </y-m>
+      <z-m>  1.97905 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Effects/cranking/cranking3.xml</path>
+    <offsets>
+      <x-m> -5.57937 </x-m>
+      <y-m>  4.94848 </y-m>
+      <z-m>  1.97905 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bleriot-5190/Models/Effects/cranking/cranking3.xml</path>
+    <offsets>
+      <x-m> -5.32645 </x-m>
+      <y-m>  4.93073 </y-m>
+      <z-m>  1.97905 </z-m>
+    </offsets>
+  </model>
+  
+</PropertyList>
