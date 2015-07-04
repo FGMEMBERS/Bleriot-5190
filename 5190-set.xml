@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList include="5190-base.xml">
+
+  <sim>
+
+    <description>Bleriot 5190 Santos Dumont (YASim)</description>
+    <author>BARANGER Emmanuel</author>
+    <aircraft-version>0.1</aircraft-version>
+    <status>Alpha</status>
+    
+    <flight-model>yasim</flight-model>
+    <aero>5190-yasim</aero>
+    
+    <rating>
+     <FDM type="int">     0 </FDM>
+     <systems type="int"> 0 </systems>
+     <cockpit type="int"> 0 </cockpit>
+     <model type="int">   2 </model>
+    </rating>
+
+  </sim>
+
+</PropertyList>
