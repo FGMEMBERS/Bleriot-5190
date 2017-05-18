@@ -11,6 +11,16 @@
     
     <flight-model>yasim</flight-model>
     <aero>5190-yasim</aero>
+ 
+    <tags>
+      <tag>bleriot</tag>
+      <tag>high-wing</tag>
+      <tag>four-engine</tag>
+      <tag>piston</tag>
+      <tag>seaplane</tag>
+      <tag>cargo</tag>
+      <tag>1930s</tag>
+    </tags>
     
     <rating>
      <FDM type="int">     0 </FDM>
